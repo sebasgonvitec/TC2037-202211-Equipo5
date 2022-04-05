@@ -1,11 +1,12 @@
-Manual del usuario, indicando cómo correr su programa y qué se obtiene de salida, en qué lenguaje lo hizo y qué tengo que instalar para que funcione. En formato Markdown dentro del repositorio GitHub
-
 ### Sebastian González, A01029746
 ### Karla Mondragón, A01025108
+<br>
 
 # ReadMe
 
-El siguiente programa tuvo como objetivo desarrollar un automata que fuera capaz de hacer operaciones aritméticas básicas (asignación, suma, resta, multiplicación, división y potencia), aceptar números reales (positivos y negativos), variables, símbolos especiales () y comentarios.
+El siguiente programa tuvo como objetivo desarrollar un automata que fuera capaz de hacer operaciones aritméticas básicas (asignación, suma, resta, multiplicación, división y potencia), aceptar números reales (positivos y negativos), variables, símbolos especiales () y comentarios. <br>
+
+Se obtiene una lista con todos los caractéres de la expresión y el tipo de caracter que es. 
 
 # Instalación 
 El programa fue realizado en el lenguaje de programación de racket. Para utilizar racket y correr el programa se necesita descargar racket (https://racket-lang.org/). Una vez que se ha descargado, se puede usar DrRacket o en caso de que tenga una terminal tipo WSL se puede utilizar el siguiente comando: <br>
