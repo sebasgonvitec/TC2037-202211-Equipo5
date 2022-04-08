@@ -4,6 +4,8 @@ Lexer for arithmetic operations with integers and spaces
 
 Sebastian Gonzalez Villacorta
 A01029746
+Karla Valeria Mondragon Rosas
+A01025108
 
 Example calls:
 (arithmetic-lexer (dfa-str 'start '(int) delta-arithmetic-lexer) "34 + 9" )

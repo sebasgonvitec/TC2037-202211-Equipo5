@@ -1,13 +1,19 @@
 #|
 Actividad 3.2 Programando un DFA v4
 Lexer for arithmetic operations with integers, floating point, real(nEn), spaces, variables and parentheses
+
 Sebastian Gonzalez Villacorta
 A01029746
+Karla Valeria Mondragon Rosas
+A01025108
+
 
 Example calls:
-(arithmetic-lexer (dfa-str 'start '(int float real var) delta-arithmetic-lexer) "34.5 * 9.1E-8 + a")
 (automaton-2 (dfa-str 'start '(int var float real) delta-arithmetic-lexer) "34+9/du*23123")
 (automaton-2 (dfa-str 'start '(int var float real) delta-arithmetic-lexer) "34+5")
+
+(arithmetic-lexer "cel = (far - 32) * 5 / 9.0")
+(arithmetic-lexer "7.4 ^3 = 2.0 * 1")
 |#
 
 #lang racket

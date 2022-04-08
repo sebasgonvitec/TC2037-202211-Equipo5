@@ -4,6 +4,8 @@ Lexer for arithmetic operations with integers, floating point, real(nEn) and spa
 
 Sebastian Gonzalez Villacorta
 A01029746
+Karla Valeria Mondragon Rosas
+A01025108
 
 Example calls:
 (arithmetic-lexer (dfa-str 'start '(int float real) delta-arithmetic-lexer) "34.5 * 9.1E-8 + 7.1" )
