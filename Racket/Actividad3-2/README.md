@@ -1,9 +1,10 @@
 ### Sebastian González, A01029746
 ### Karla Mondragón, A01025108
 <br>
+
 # ReadMe
 
-El siguiente programa tuvo como objetivo desarrollar un automata que fuera capaz de hacer operaciones aritméticas básicas (asignación, suma, resta, multiplicación, división y potencia), aceptar números reales (positivos y negativos), variables, símbolos especiales () y comentarios. <br>
+El siguiente programa tuvo como objetivo desarrollar un automata que fuera capaz de reconocer operaciones aritméticas básicas (asignación, suma, resta, multiplicación, división y potencia), aceptar números reales (positivos y negativos), variables y símbolos especiales (). <br>
 
 Se obtiene una lista con todos los caractéres de la expresión y el tipo de caracter que es. 
 
