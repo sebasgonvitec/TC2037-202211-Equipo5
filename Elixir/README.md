@@ -1,8 +1,8 @@
+# ReadMe
+
 ### Sebastian González, A01029746
 ### Karla Mondragón, A01025108
 <br>
-
-# ReadMe
 
 # Instalación 
 El programa fue realizado en el lenguaje de programación de elixir. Para utilizar elixir y correr el programa se necesita descargar elixir (https://elixir-lang.org/install.html). Una vez que se ha descargado, en caso de que tenga una terminal tipo WSL se puede utilizar el siguiente comando: <br>
