@@ -24,10 +24,9 @@ El programa consta de varias funciones cuyas tareas en conjunto llevan a cabo el
 - **json_html_par_fpt(jsonList, threads)**: Recibe como argumento la lista de archivos JSON y el número de threads que se quiere utilizar. Esta función es la responsable de la paralelización del proceso de resaltado de sintaxis al llamar una tarea asincrónica para cada uno de los archivos de la lista y aplicandole la función json_to_html().
 
 ***
+Para calcular la complejidad temporal se considero primero la función de Enum.map() que le aplica la función regex() a todos los datos, haciendo la complejidad $n$. En esta función, todos los métodos utilizados son constantes, por ejemplo el Regex que en vez de buscar en todo el string, trata de encontrar cierto elemento al inicio de la linea. El único paso que no es constante es la concatenación del string de resultado, que agrega cada linea a si mismo, haciendo que la complejidad se vuelva $n\times r$ en donde $r$ es el número de renglones por archivo de entrada.
 
-Analizando el proceso por el que pasan los archivos se puede aproximar la complejidad a $O(n)$ (aysi)
-
-Explicar más o menos como se calculó la complejidad
+Para la parte paralela lo único que se tiene que hacer es múltiplicar esto por la cantidad de archivos de entrada que se introducen.
 
 
 ***
@@ -54,8 +53,8 @@ A manera de contraste se tomaron los tiempos secuenciales y paralelos de la impl
 <br>
 <br>
 <img src="./images/t_secuencial_replace.png">
-<figcaption align = "center"><b>Fig.3 - Resultados función secuencial anterior</b></figcaption>
+<figcaption align = "center"><b>Fig.3 - Resultados función secuencial versión anterior</b></figcaption>
 <br>
 <img src="./images/t_paralelo_replace.png">
-<figcaption align = "center"><b>Fig.4 - Resultados función paralela anterior</b></figcaption>
+<figcaption align = "center"><b>Fig.4 - Resultados función paralela versión anterior</b></figcaption>
 <br>
