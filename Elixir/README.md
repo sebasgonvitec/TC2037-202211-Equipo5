@@ -4,8 +4,6 @@
 
 # ReadMe
 
-El siguiente programa tuvo como objetivo desarrollar un un motor de expresiones regulares que tome las expresiones léxicas de JSON y con ello esté en condiciones de escanear los elementos léxicos de cualquier archivo fuente provisto. El programa convierte su entrada en documentos de HTML+CSS que resalta el léxico.
-
 # Instalación 
 El programa fue realizado en el lenguaje de programación de elixir. Para utilizar elixir y correr el programa se necesita descargar elixir (https://elixir-lang.org/install.html). Una vez que se ha descargado, en caso de que tenga una terminal tipo WSL se puede utilizar el siguiente comando: <br>
     &nbsp;&nbsp;&nbsp;&nbsp; sudo apt-get install elixir <br>
@@ -21,11 +19,3 @@ En caso de que se este utilizando un sistema operativo diferente a Windows 11 o 
 * https://elixir-lang.org/install.html
 
 <br>
-
-# Correr este programa
-Para poder correr este programa, en su terminal debe utilizar el comando:
-
-&nbsp;&nbsp;&nbsp;&nbsp; iex token_test.exs <br>
-&nbsp;&nbsp;&nbsp;&nbsp; JSONTest.json_to_html("in_filename", "out_filename")
-
-Lo que crea el archivo HTML y solamente se tiene que correr. El archivo CSS "token_colors.css" debe de estar en la misma carpeta que el archivo del resultado.
